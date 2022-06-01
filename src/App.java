@@ -14,8 +14,10 @@ public class App {
     private static int sumOfEvenElements(int[] tab) {
         if (tab == null || tab.length == 0)
             throw new IllegalArgumentException("Array is null or empty");
-
-        int sum = Arrays.stream(tab).filter(i -> i % 2 == 0).sum();
-        return sum;
+        
+        return Arrays
+                .stream(tab)
+                .filter(i -> i % 2 == 0)
+                .sum();
     }
 }
