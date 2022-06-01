@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class App {
     public static void main(String[] args) {
-        int[] NumberTable = new int[]{ 2, 5, 3, 4, 1, 10 };
+        int[] NumberTable = { 2, 5, 3, 4, 1, 10 };
         System.out.println(sumOfEvenElements(NumberTable));
     }
 
